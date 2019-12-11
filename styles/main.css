@@ -3,11 +3,13 @@ body{
     padding: 0;
     margin: 0;
     font-size: 100%;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 
 .top-nav{
     margin: 0;
+    position: sticky;
+    top: 0;
 }
 
 .top-nav-list{
@@ -16,8 +18,6 @@ body{
     list-style-type: none;
     overflow: hidden;
     background-color: #3c3c3c;
-    position: sticky;
-    top: 0;
     width: 100%;
 }
 
@@ -26,8 +26,8 @@ body{
     color: #FFFFFF;
     text-align: center;
     display: block;
-    padding: 1%;
     margin: 0;
+    padding: 0.38em;
 }
 
 .top-nav-list-item{
@@ -41,12 +41,21 @@ body{
     text-align: center;
     text-decoration: none;
     display: block;
-    height: inherit;
+    padding: 0.5em;
 }
 
 .top-nav-list-item a:hover, a:active{
     background-color: #C8C8C8;
+    border-bottom: 3px solid #C8C8C8;
     color: #000000;
+}
+
+.top-nav-list-item-active a{
+    border-bottom: 3px solid #ff3d33;
+}
+
+.top-nav-list-item-active a:hover, a:active{
+    border-bottom: 3px solid #ff3d33;
 }
 
 .portfolio-article, .portfolio-footer{
@@ -58,7 +67,29 @@ body{
     border-bottom: 1px solid #C8C8C8;
 }
 
-.portfolio-footer-h6{
+.portfolio-article-div-ul-li{
+    list-style-type: none;
+}
+
+.portfolio-article-div-ul-li-link{
+    color: #000000;
+    padding: 0.5em;
+}
+
+.portfolio-article-div-ul-li-link:hover{
+    background-color: #ff3d33;
+}
+
+.portfolio-article-div-ul-li-description{
+    border-left: 5px solid #ff3d33;
+    background-color: #ff3d3318;
+    padding: 1em;
+    text-align: justify;
+    font-style: italic;
+    font-weight: 300;
+}
+
+footer h6{
     color: #a8a8a8;
     text-align: center;
 }

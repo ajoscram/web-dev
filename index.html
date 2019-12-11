@@ -5,6 +5,7 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="styles/main.css">
+        <link href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,500,700&display=swap" rel="stylesheet">
     </head>
     <body>
         <nav class="top-nav">
@@ -15,17 +16,31 @@
                 <li class="top-nav-list-item">
                     <a href="about.html">Acerca de</a>
                 </li>
-                <li class="top-nav-list-item">
+                <li class="top-nav-list-item top-nav-list-item-active">
                     <a href="index.html">Portafolio</a>
                 </li>
             </ul>
         </nav>
         <article class="portfolio-article">
             <div class="portfolio-article-div">
-                <h2>Tareas:</h2>
+                <h2 class="portfolio-article-div-title">Tareas:</h2>
                 <ul>
-                    <li><a href="resources/Tarea Full-Stack Web Dev.pdf">Resumen Full-Stack Web Dev</a></li>
-                    <li><a>Infograma Historia de Internet</a></li>
+                    <li class= "portfolio-article-div-ul-li">
+                        <a class="portfolio-article-div-ul-li-link" href="resources/Tarea Full-Stack Web Dev.pdf">Resumen Full-Stack Web Dev</a>
+                        <p class="portfolio-article-div-ul-li-description">
+                            8/12/2019
+                            <br><br>
+                            Una investigación sobre las diferentes partes arquitecturales de una aplicación web y las especializaciones en el campo. También se responde a la pregunta: ¿Verdareramente existe un desarrollador full-stack?
+                        </p>
+                    </li>
+                    <li class= "portfolio-article-div-ul-li">
+                        <a class="portfolio-article-div-ul-li-link">Infograma Historia de Internet</a>
+                        <p class="portfolio-article-div-ul-li-description">
+                            8/12/2019
+                            <br><br>
+                            Imagen infográfica que ilustra sucintamente la historia de internet y la web.
+                        </p>
+                    </li>
                 </ul>
             </div>
             <div class="portfolio-article-div">
@@ -44,8 +59,8 @@
                 </ul>
             </div>
         </article>
-        <footer class="portfolio-footer">
-            <h6 class="portfolio-footer-h6">Instituto Tecnológico de Costa Rica - 2019</h6>
+        <footer>
+            <h6>Instituto Tecnológico de Costa Rica - 2019</h6>
         </footer>
     </body>
 </html>
