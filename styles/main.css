@@ -102,6 +102,8 @@ body{
 .portfolio-article section div p{
     display: block;
     float: left;
+    color: #606060;
+    font-weight: 400;
 }
 
 .portfolio-article section div h2{

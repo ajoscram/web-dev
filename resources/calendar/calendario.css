@@ -1,0 +1,63 @@
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+h1{
+    text-align: center;
+}
+
+#widget{
+    border: 5px double black;
+    margin: auto;
+    width: 500px;
+    background-color: #fffff5;
+}
+
+#calendario{
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+
+#anterior{
+    display: block;
+    float: left;
+    margin: auto;
+    padding: 1em;
+}
+
+#posterior{
+    display: block;
+    float: right;
+    margin: auto;
+    padding: 1em;
+}
+
+#titulos{
+    text-align: center;
+}
+
+#fila0 th{
+    background-color: #5aa2aa;
+    color: #7851a9;
+}
+
+#diasc{
+    width: 100%;
+    border: 1px solid black;
+}
+
+#fechaactual{
+    text-align: center;
+}
+
+form{
+    margin:0;
+    text-align: center;
+    background-color: #7851a9;
+    color: #9bf5ff;
+}
+
+form p{
+    margin: 0;
+}
