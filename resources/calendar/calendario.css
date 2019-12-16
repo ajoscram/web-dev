@@ -61,3 +61,7 @@ form{
 form p{
     margin: 0;
 }
+
+#diasc tr{
+    text-align: center;
+}

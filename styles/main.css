@@ -95,8 +95,14 @@ body{
 
 .portfolio-article section div img.about-image{
     height: 15.2em;
-    padding: 1em;
-    border-radius: 1.3em;
+    padding: 0;
+    margin-top: 1em;
+    margin-right: 1em;
+    margin-bottom: 1em;
+    margin-left: 0.25em;
+    border-radius: 0.5em;
+    box-shadow: 0 0 0.25em #4d4d4d;
+    border: 1px solid #8f8f8f;
 }
 
 .portfolio-article section div p{
